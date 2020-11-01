@@ -41,6 +41,6 @@ if (s1.getXuanke().cno==01) {         //判断
 		}
 ```
 ## 运行结果
-（url=https://github.com/yang-059/experiment/blob/main/elective运行结果.PNG）
+[] （url=https://github.com/yang-059/experiment/blob/main/elective运行结果.PNG）
 ## 编程感想
 此次试验通过对toString（）和继承的使用，较之前更掌握了两种信息输入输出的方法；另外，对于github的使用方式有了更进一步的学习。
