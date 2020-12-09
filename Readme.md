@@ -25,12 +25,13 @@
 ## 流程图
 ![](https://github.com/yang-059/experiment/blob/main/elective%20UML图.PNG)
 ## 核心代码
+1. 继承
 ```
 class teacher extends personnal{}     //子类继承父类
 ```
-
+2. 判断
 ```
-if (s1.getXuanke().cno==01) {         //判断
+		if (s1.getXuanke().cno==01) {         //判断是否可选课
 			System.out.println("此课已满，请选择其他课程。\n");
 			System.out.println(s1);
 		    System.out.println("其他可选课程：\n"+p1);		
@@ -39,6 +40,18 @@ if (s1.getXuanke().cno==01) {         //判断
 			System.out.println(s1);
 			System.out.println(c1);
 		}
+```
+3. toString
+```
+	course(int cno,String conrse,String teacher,String didian){          //通过构造方法获取各信息
+		this.cno=cno;
+		this.conrse=conrse;
+		this.teacher=teacher;
+		this.didian=didian;
+	}
+	public String toString() {						//通过toString输出相应信息
+		return "课程编号："+cno+"  课程名称:"+conrse+"  授课教师："+teacher+"  上课地点："+didian;
+	}
 ```
 ## 运行结果
 ![](https://github.com/yang-059/experiment/blob/main/elective运行结果.PNG)
